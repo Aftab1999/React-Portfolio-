@@ -9,14 +9,9 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
     FaGithub,
     FaInstagram,
-    // AiFillInstagram,
-    // FaYoutube,
-    // FaBlogger,
-    FaMediumM
 } from 'react-icons/fa';
 
 function Landing() {
@@ -122,7 +117,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                       
+
                     </div>
                 </div>
                 <img
