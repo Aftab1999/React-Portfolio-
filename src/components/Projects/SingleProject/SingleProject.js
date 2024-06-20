@@ -49,10 +49,12 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                         {name}
                     </h2>
                     <img src={image ? image : placeholder} alt={name} />
+                    {/* <img src={image ? require(`../../../data/projectsData${image}`) : placeholder} alt={name} /> */}
+
                     <div className='project--showcaseBtn'>
 
 
-                    
+
                         <a
                             href={code}
                             target='_blank'
@@ -61,8 +63,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                             aria-labelledby={`${name
                                 .replace(' ', '-')
                                 .toLowerCase()} ${name
-                                .replace(' ', '-')
-                                .toLowerCase()}-code`}
+                                    .replace(' ', '-')
+                                    .toLowerCase()}-code`}
                         >
                             <FaCode
                                 id={`${name
@@ -74,7 +76,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                         </a>
 
                         <a
-                            style={{display:'none'}}
+                            style={{ display: 'none' }}
                             href={demo}
                             target='_blank'
                             rel='noreferrer'
@@ -82,8 +84,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                             aria-labelledby={`${name
                                 .replace(' ', '-')
                                 .toLowerCase()} ${name
-                                .replace(' ', '-')
-                                .toLowerCase()}-demo`}
+                                    .replace(' ', '-')
+                                    .toLowerCase()}-demo`}
                         >
                             <FaPlay
                                 id={`${name
