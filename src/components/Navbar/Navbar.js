@@ -231,7 +231,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#skill'
+                                to='/#Skills'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -242,6 +242,24 @@ function Navbar() {
                                     />
                                     <span className={classes.drawerLinks}>
                                         Skills
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#experience'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <BsFillGearFill
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Experience
                                     </span>
                                 </div>
                             </NavLink>
