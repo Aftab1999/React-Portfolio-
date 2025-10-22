@@ -1,14 +1,14 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Codeplateau',
+        company: 'CODEPLATEAU TECHNOLOGY SOLUTIONS,PUNE',
         jobtitle: 'React Js Developer',
         startYear: '06/2022',
         endYear: 'Present'
     },
     {
         id: 2,
-        company: 'Extended Web AppTech',
+        company: 'ALAGZOO SOFTWARE SERVICES,HYDERABAD',
         jobtitle: 'Frontend Developer',
         startYear: '02/2022',
         endYear: '05/2022'
